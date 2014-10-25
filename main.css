@@ -1,0 +1,51 @@
+/* ^1 --------------------------- global constants -------------------------*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    text-align:center;
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    /*background: #e1d8b9 url(../_images/page_background.jpg) repeat-x;*/
+    margin-top: 25px;
+}
+
+p {
+    text-align: left;
+}
+#wrapper{
+    position: relative;
+}
+
+#header{
+    float: left;
+    width: 192px;
+    height: 237px;
+    /*position: absolute;*/
+    top: -25px;
+    left: 35px;
+}
+#mainNav{
+    text-align: left;
+    float: left;
+    /*position: absolute;*/
+}
+
+#mainContent {
+    padding-top: 234px;
+    padding-right: 25px;
+    float: right;
+    width: 608px;
+    margin-bottom: 45px;
+}
+#mainContent h1{
+    font: normal 2.5em Georgia, "Times New Roman", Times, serif;
+    margin: .5em 0 .25em;
+    letter-spacing: -1px;
+}
+#mainContent p{
+    font-size: 1em;
+    line-height: 1.8;
+}
